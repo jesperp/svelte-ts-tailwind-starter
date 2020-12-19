@@ -5,5 +5,12 @@ module.exports = {
     defaults: {
       script: 'typescript',
     },
+    postcss: {
+      verbose: true,
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ]
+    },
   }),
 };
