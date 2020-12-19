@@ -1,8 +1,12 @@
-# New Project
+## Gettings started
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+```bash
 
-## Available Scripts
+degit jesperp/svelte-ts-tailwind-starter myproject
+cd myproject
+npm i
+npm start
+```
 
 ### npm start
 
@@ -24,6 +28,3 @@ Your app is ready to be deployed!
 
 **For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.json` config file.
 
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
