@@ -1,11 +1,12 @@
 ## Gettings started
+Bootstrapping a Svelte/Typescript/Tailwind project powered by Snowpack!
 
 ```bash
 
 degit jesperp/svelte-ts-tailwind-starter myproject
 cd myproject
 npm i
-npm start
+npm start  # This is quite slow the first time you run it! (because tailwind)
 ```
 
 ### npm start
